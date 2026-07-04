@@ -37,12 +37,14 @@ export const metadata: Metadata = {
     siteName: "Tanmay Choudhary",
     type: "website",
     locale: "en_US",
+    images: ["/og-image.png"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Tanmay Choudhary — Systems & Spatial Intelligence",
     description: "I build systems that survive contact with reality.",
     creator: "@0x9T9",
+    images: ["/og-image.png"],
   },
 };
 
