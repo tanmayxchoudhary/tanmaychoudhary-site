@@ -105,7 +105,7 @@ export default function Home() {
             I build systems that <span className="accent">survive</span> contact with reality.
           </h1>
           <p className="hero-sub">
-            <strong>Tanmay Choudhary.</strong> Urban planner turned systems builder.
+            <strong>Tanmay Choudhary.</strong>{" "}Urban planner turned systems builder.
             I make RAG tools, GIS evidence, scrapers, autonomous agents, trading pipelines,
             and the infrastructure that keeps them running. The standard is simple:
             it runs, it survives real inputs, and it&apos;s clear enough to hand off.

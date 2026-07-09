@@ -61,7 +61,7 @@ export default function SignalCanvas() {
         const r = 40 + ring * 36 + Math.sin(frame * 0.012 + ring) * 5;
         ctx.beginPath();
       ctx.ellipse(cx, cy, r * 1.3, r, Math.sin(frame * 0.002) * 0.2, 0, Math.PI * 2);
-        ctx.strokeStyle = `rgba(232, 31, 22, ${0.3 - ring * 0.03})`;
+        ctx.strokeStyle = `rgba(232, 31, 22, ${0.42 - ring * 0.04})`;
         ctx.lineWidth = ring % 3 === 0 ? 2 : 1;
         ctx.stroke();
       }
@@ -73,7 +73,7 @@ export default function SignalCanvas() {
         const x = cx + Math.cos(a) * r * 1.15;
         const y = cy + Math.sin(a * 1.2) * r * 0.6;
         if (x < 0 || x > W || y < 0 || y > H) continue;
-        ctx.fillStyle = `rgba(232, 31, 22, ${0.12 + (i % 5) * 0.03})`;
+        ctx.fillStyle = `rgba(232, 31, 22, ${0.18 + (i % 5) * 0.04})`;
         ctx.fillRect(x, y, i % 9 === 0 ? 18 : 4, 1.5);
       }
       ctx.globalCompositeOperation = "source-over";
